@@ -1,0 +1,23 @@
+{
+  "name": "nixie-electron",
+  "version": "0.0.0",
+  "description": "Coming soon!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doug-wade/nixie"
+  },
+  "keywords": [
+    "electron",
+    "cordova"
+  ],
+  "author": "Doug Wade",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/doug-wade/nixie/issues"
+  },
+  "homepage": "https://github.com/doug-wade/nixie"
+}
