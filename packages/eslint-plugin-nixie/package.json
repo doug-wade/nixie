@@ -1,0 +1,25 @@
+{
+  "name": "eslint-plugin-nixie",
+  "version": "0.0.0",
+  "description": "Checks to make sure unsupported nixie apis aren't used in nixie projects",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Doug Wade",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~1.2.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}

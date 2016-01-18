@@ -1,42 +1,41 @@
-# generator-nixie
+# nixie-cli
 
-generator-nixie is a cli application that uses subcommands to organize functionality into an easily-readable, fluent argument style.
+The nixie cli helps authors of nixie packages work with and build nixie applications.
+
 
 ## Installation
 
-
-try {
 To install, make sure you have node installed
 
     sudo apt-get install nodejs
 
-Then install generator-nixie globally
+Then install nixie-cli globally
 
-    npm install -g generator-nixie
+    npm install -g nixie
 
 
 ## Use
 
 To get help, or to get the list of all sub commands, simply run `help`
 
-    generator-nixie help
+    nixie help
 
 `help` is also used to discover how to use sub commands
 
-    generator-nixie help example
+    nixie help example
     > An example command.
     > Usage:
-    >      sub example
+    >      nixie example
     >      > 'You ran the example command!'
 
-To update generator-nixie, use update
+To update nixie-cli, use update
 
-    generator-nixie update
+    nixie update
 
-Though if you haven't updated in a while, generator-nixie will remind you 😀
+Though if you haven't updated in a while, nixie-cli will remind you 😀
 
 Before you run any commands, you'll need to set up some config by running `init`
 
-    generator-nixie init
+    nixie init
 
 Then follow the prompts
