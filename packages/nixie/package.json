@@ -1,6 +1,6 @@
 {
   "name": "nixie",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Coming soon!",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/doug-wade/nixie/issues"
   },
-  "homepage": "https://github.com/doug-wade/nixie"
+  "homepage": "https://github.com/doug-wade/nixie",
+  "dependencies": {
+     "nixie-cli": "0.0.1"
+   }
 }
