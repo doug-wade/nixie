@@ -1,6 +1,6 @@
 # nixie-cli
 
-The nixie cli helps authors of nixie packages work with and build nixie applications.
+The nixie cli helps authors of nixie packages work with and build nixie applications.  Find out more in [the docs](https://github.com/doug-wade/nixie/tree/master/docs)
 
 
 ## Installation
