@@ -33,10 +33,10 @@ function getFirstLine(fileName) {
 /**
  * Gets help for a sub command.
  * Usage:
- *      generator-nixie help example
+ *      nixie help example
  *      > An example command.
  *      > Usage:
- *      >      generator-nixie example
+ *      >      nixie example
  *      >      > 'You ran the example command!'
  */
 module.exports = (argv) => {
@@ -56,6 +56,6 @@ module.exports = (argv) => {
     }
   }
 
-  console.log('A simple cli application. Broken into sub commands, invoked under sub: ');
+  console.log('Helps you write nixie apps!  Commands:');
   commands.forEach((sub) => console.log('    ' + sub + ': ' + getFirstLine(sub)));
 };
