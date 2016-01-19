@@ -8,19 +8,23 @@ Platforms is a hash of keys that correspond to the supported platform that a `ni
 
 Here's an example .nixierc.  Options are set either at the `.nixierc` root, which are set as defaults for all targets, or in a platform-specific hash, which is used for .
 
+## Minimal example
+
+To run just a web server with a cli
+
+{
+  "cli": {
+    "targets": [ "all" ]
+  }
+}
+
+## Reasonable example
+
 To support everything Linux
 
     {
-      "common": {
-        "sources": "common",
-        "database": {
-          "type": "lokijs",
-          "in-memory": true
-        },
-        "cache": {
-          "type": "node-cache",
-          "in-memory": true
-        },
+      "api": {
+        "targets": [ "" ]
       },
       "cordova": {
         "targets": [ "android" ]
@@ -28,9 +32,8 @@ To support everything Linux
       "electron": {
         "targets": [ "linux" ]
       },
-      "browser": {
-        "sources": "browser",
-        "targets": [ "static", "spa" ],
+      "server": {
+        "targets": [ "static", "spa", "phantomjs" ],
         "database": {
           "type": "mongodb",
           "in-memory": false

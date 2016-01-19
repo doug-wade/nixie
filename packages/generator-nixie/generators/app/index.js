@@ -1,16 +1,14 @@
 'use strict';
 var yeoman = require('yeoman-generator');
 var chalk = require('chalk');
-var yosay = require('yosay');
 
 module.exports = yeoman.generators.Base.extend({
   prompting: function () {
     var done = this.async();
 
-    // Have Yeoman greet the user.
-    this.log(yosay(
-      'Welcome to the riveting ' + chalk.red('generator-nixie') + ' generator!'
-    ));
+    this.log(chalk.blue('Willkommen auf der Nixe-Generator!🇩🇪'));
+    this.log(chalk.red('Welcome to the nixie generator!🇺🇸'));
+    this.log(chalk.yellow('Bienvenido al generador nixie!🇲🇽'));
 
     var prompts = [{
       type: 'confirm',
@@ -29,8 +27,8 @@ module.exports = yeoman.generators.Base.extend({
 
   writing: function () {
     this.fs.copy(
-      this.templatePath('dummyfile.txt'),
-      this.destinationPath('dummyfile.txt')
+      this.templatePath('_nixierc'),
+      this.destinationPath('.nixierc')
     );
   },
 

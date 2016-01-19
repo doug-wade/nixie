@@ -1,6 +1,8 @@
 {
   "private": true,
   "dependencies": {
+    "eslint": "1.10.3",
+    "eslint-plugin-babel": "3.0.0",
     "lerna": "^1.0.5"
   }
 }

@@ -3,4 +3,4 @@
 This is the nixie monorepo.  Monoepos are like, [so hot right now](http://giphy.com/gifs/zoolander-wJgksbFoieotG) -- all the cool kids are doing it, [React](https://github.com/facebook/react/tree/master/packages), [Meteor](https://github.com/meteor/meteor/tree/devel/packages), [Ember](https://github.com/emberjs/ember.js/tree/master/packages),
 and [Babel](https://github.com/babel/babel/tree/master/packages) do this.  Babel [explains most eloquently why](https://github.com/babel/babel/blob/master/doc/design/monorepo.md).
 
-Check out the docs to get started.
+Check out the docs to get started.  Also, fair warning, most of the docs are just ideas that I have and not actually implemented, but I'm like 86% certain it'll all work.

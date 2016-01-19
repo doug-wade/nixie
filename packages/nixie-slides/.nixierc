@@ -1,0 +1,8 @@
+{
+  "static-cli": {
+    "targets": [ "npm" ]
+  },
+  "static": {
+    "targets": [ "github" ]
+  }
+}
